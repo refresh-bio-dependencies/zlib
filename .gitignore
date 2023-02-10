@@ -25,7 +25,6 @@
 
 .DS_Store
 
-/build
 /Makefile
 /configure.log
 /contrib/vstudio/vc14/.vs/zlibvc
@@ -38,3 +37,11 @@
 /contrib/vstudio/vc14/x64/ZlibStatDebug
 /contrib/vstudio/vc14/x64/ZlibStatRelease
 /libs/x64
+/build/.vs/zlib
+/build/CMakeFiles/3.26.0-rc2
+/build/Debug
+/build/CMakeFiles/257deb2da1a30a3508202d9aa259d048
+/build/CMakeFiles
+/build/Release
+/build/x64
+/build/zlib.dir
