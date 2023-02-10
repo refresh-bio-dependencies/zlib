@@ -326,7 +326,7 @@ extern const uint8_t ZLIB_INTERNAL _dist_code[];
     flush = (s->sym_next == s->sym_end); \
   }
 
-#ifdef _MSC_VER
+#if defined(_MSC_VER) && !defined(__clang__)
 
 /* MSC doesn't have __builtin_expect.  Just ignore likely/unlikely and
    hope the compiler optimizes for the best.
@@ -336,10 +336,14 @@ extern const uint8_t ZLIB_INTERNAL _dist_code[];
 
 int __inline __builtin_ctzl(unsigned long mask)
 {
-    unsigned long index ;
+    unsigned long index;
+
+    return _BitScanForward(&index, mask) == 0 ? 32 : ((int)index);
+}
 #else
 #define likely(x)       __builtin_expect((x),1)
 #define unlikely(x)     __builtin_expect((x),0)
 #endif
+
 
 #endif /* DEFLATE_H */
