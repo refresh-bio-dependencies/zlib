@@ -28,3 +28,12 @@
 /build
 /Makefile
 /configure.log
+/contrib/vstudio/vc14/.vs/zlibvc
+/contrib/vstudio/vc14/x64/Debug/minizip.tlog
+/contrib/vstudio/vc14/x64/Debug
+/contrib/vstudio/vc14/x64/MiniUnzipDebug/Tmp
+/contrib/vstudio/vc14/x64/TestZlibDebug/Tmp
+/contrib/vstudio/vc14/x64/TestZlibDllDebug/Tmp
+/contrib/vstudio/vc14/x64/ZlibDllDebug/Tmp
+/contrib/vstudio/vc14/x64/ZlibStatDebug
+/contrib/vstudio/vc14/x64/ZlibStatRelease
