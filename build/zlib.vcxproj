@@ -24,7 +24,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AE29051E-E1D8-3F22-9CA9-64EDD3E02BA3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>zlib</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -211,7 +211,6 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-
   <ItemGroup>
     <ClCompile Include="..\adler32.c" />
     <ClCompile Include="..\compress.c" />
