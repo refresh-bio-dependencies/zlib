@@ -1,89 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\adler32.c">
+    <ClCompile Include="..\adler32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\compress.c">
+    <ClCompile Include="..\compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\crc32.c">
+    <ClCompile Include="..\crc32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\deflate.c">
+    <ClCompile Include="..\deflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\gzclose.c">
+    <ClCompile Include="..\gzclose.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\gzlib.c">
+    <ClCompile Include="..\gzlib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\gzread.c">
+    <ClCompile Include="..\gzread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\gzwrite.c">
+    <ClCompile Include="..\gzwrite.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\inflate.c">
+    <ClCompile Include="..\inflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\infback.c">
+    <ClCompile Include="..\infback.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\inftrees.c">
+    <ClCompile Include="..\inftrees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\inffast.c">
+    <ClCompile Include="..\inffast.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\trees.c">
+    <ClCompile Include="..\trees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\uncompr.c">
+    <ClCompile Include="..\uncompr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Kompilatory\forks\dependencies-zlib\zutil.c">
+    <ClCompile Include="..\zutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Kompilatory\forks\dependencies-zlib\build\zconf.h">
+    <ClInclude Include="..\build\zconf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Kompilatory\forks\dependencies-zlib\zlib.h">
+    <ClInclude Include="..\zlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Kompilatory\forks\dependencies-zlib\crc32.h">
+    <ClInclude Include="..\crc32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Kompilatory\forks\dependencies-zlib\deflate.h">
+    <ClInclude Include="..\deflate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Kompilatory\forks\dependencies-zlib\gzguts.h">
+    <ClInclude Include="..\gzguts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Kompilatory\forks\dependencies-zlib\inffast.h">
+    <ClInclude Include="..\inffast.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Kompilatory\forks\dependencies-zlib\inffixed.h">
+    <ClInclude Include="..\inffixed.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Kompilatory\forks\dependencies-zlib\inflate.h">
+    <ClInclude Include="..\inflate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Kompilatory\forks\dependencies-zlib\inftrees.h">
+    <ClInclude Include="..\inftrees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Kompilatory\forks\dependencies-zlib\trees.h">
+    <ClInclude Include="..\trees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Kompilatory\forks\dependencies-zlib\zutil.h">
+    <ClInclude Include="..\zutil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Kompilatory\forks\dependencies-zlib\CMakeLists.txt" />
+    <CustomBuild Include="..\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
