@@ -45,3 +45,5 @@
 /build/Release
 /build/x64
 /build/zlib.dir
+/build/.vs/ALL_BUILD/v17
+/build/.vs/ALL_BUILD/FileContentIndex
